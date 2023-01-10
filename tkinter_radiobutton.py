@@ -34,7 +34,7 @@ Radiobutton(main,text = "option 1",variable = r, value = 1,command= lambda:click
 Radiobutton(main,text = "option 2",variable = r, value = 2,command= lambda:clicked(right.get())).grid()
 Radiobutton(main,text = "option 3",variable = r, value = 3,command= lambda:clicked(center.get())).grid()
 Radiobutton(main,text = "option 4",variable = r, value = 3,command= lambda:clicked(back_center.get())).grid()
-myButton = Button(main, text ="Click me here!",command=clicked(left.get()))
+myButton = Button(main, text ="Click the above option!",command=clicked(left.get()))
 myButton.grid()
 
   

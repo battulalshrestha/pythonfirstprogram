@@ -29,7 +29,7 @@ myButton.grid()
  
 # Placing clock at the centre
 # of the tkinter window
-myButton=Button(main,anchor=NW)
+myButton=Button(main,padx =23,pady =25)
 myButton.grid()
  
 main.mainloop()

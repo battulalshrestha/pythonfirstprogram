@@ -72,6 +72,10 @@ myButton3 = Button(main,text = "Up",command=lambda:up('x'))
 myButton3.grid(row =1,column=2)
 myButton4= Button(main,text = "Down",command=lambda:down('x'))
 myButton4.grid(row =1,column=3)
+main.bind('<Right>',right)
+main.bind('<Left>',left)
+main.bind('<Up>',up)
+main.bind('<Down>',down)
 
 
 main.mainloop()
