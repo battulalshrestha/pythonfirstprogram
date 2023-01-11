@@ -14,7 +14,7 @@ alphabets = letters+digit+special_char
 
 pw = ""
 # and i made fixed to take some length of password which is gives to us by computer . we can made any of length to give .
-pwd_length =100000
+pwd_length =100
 # i made a range of password named as m within the length of which i made fixed above to it.
 for  m in range(pwd_length):
 #  password can join with its module and its gives us in choice because string is fixed in a length and for length we can only use as a choice function and i passed as a hole alphabets on it
